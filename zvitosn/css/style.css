@@ -1,0 +1,83 @@
+#header{
+  width: 100%;
+  height: 200px;
+   background-position: center;
+   background-repeat: no-repeat;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/94/Pnu_logo.png);
+  background-size: contain;
+}
+#footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 0.05px;
+    background: #7CFC00;
+    color: #ffa;
+    width: 100%;
+    z-index: 2;
+   }
+   #short {
+    position: absolute;
+    right: 0;
+    top: 250px;
+    width: 20%;
+    font-size: 90%;
+    background: #B0E0E6 bottom right no-repeat;
+    padding: 5px;
+    padding-top: 100px;
+    padding-bottom: 65px;
+   }
+   #text {
+    position: relative;
+    right: 100;
+    width: 79%;
+    font-size: 94%;
+    background: #FFDAB9 bottom right no-repeat;
+    padding: 5px;
+    padding-bottom: 50px;
+    z-index: 1;
+   }
+            nav {
+                width: 100%;
+                background: #B0E0E6;
+            }
+            #ul, #li{
+                margin: 0;
+                padding: 0;
+            }
+            #a{
+                color: #DA70D6;
+                font-weight: bold;
+            }
+            #li {
+                width: 20%;
+                list-style-type: none;
+                border: 1px solid red;
+                padding: 10px;
+                display: inline-block;
+            }
+            #li:hover a{
+color: #8B4513;
+                text-decoration: underline;
+                } 
+                h2:hover a {
+                color: #708090;
+                text-decoration: underline;
+            }
+            .class{
+    background: white;
+    
+}
+@media only screen and (max-width: 1000px) {
+	#short {
+    position: relative;
+    top: 0px;
+	width: 100%;
+    padding-bottom: 100px;
+	}
+	#text {
+    width: 100%;
+	}
+	#li {
+                width: 100%;
+	}
+}
